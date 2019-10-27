@@ -23,7 +23,7 @@ Content
 - [VIPER](#viper)
 - [VIP](#vip)
 - [Data Source](#data-source)
-- [Misc](#misc)
+- [Best Practices](#best-practices)
 
 
 # MVC
@@ -31,11 +31,19 @@ Model View Controller
 
 ### Posts
 
+- [Model-View-Controller, Apple Docs](https://developer.apple.com/library/content/documentation/General/Conceptual/CocoaEncyclopedia/Model-View-Controller/Model-View-Controller.html)
 - [Looking at Model-View-Controller in Cocoa](https://www.cocoawithlove.com/blog/mvc-and-cocoa.html)
 - [Do MVC like it’s 1979](https://badootech.badoo.com/do-mvc-like-its-1979-da62304f6568)
 - [A Better MVC, Part 1: The Problems](https://davedelong.com/blog/2017/11/06/a-better-mvc-part-1-the-problems/) :rocket:
 - [Using child view controllers as plugins in Swift](https://www.swiftbysundell.com/posts/using-child-view-controllers-as-plugins-in-swift)
 - [MVC.](http://codeplease.io/2017/11/19/mvc/)
+- [Model-View-Controller without the Controller](https://www.cocoawithlove.com/blog/mvc-without-the-c.html)
+- [Just Controllers](http://khanlou.com/2018/02/just-controllers/)
+- [A Better MVC](https://www.youtube.com/watch?v=YWVzCd5FYbs)
+
+### Repos
+
+- [MVCTodo](https://github.com/davedelong/MVCTodo) A very simple "To Do" app to illustrate the principles from my "A Better MVC" talk
 
 # MVP
 Model View Presenter
@@ -73,12 +81,15 @@ Model View ViewModel
 - [View Models at Kickstarter ](https://talk.objc.io/episodes/S01E47-view-models-at-kickstarter)
 - [How not to get desperate with MVVM implementation](https://medium.com/flawless-app-stories/how-to-use-a-model-view-viewmodel-architecture-for-ios-46963c67be1b)
 - [iOS Architecture: A State Container based approach](https://jobandtalent.engineering/ios-architecture-an-state-container-based-approach-4f1a9b00b82e) :rocket:
+- [Different flavors of view models in Swift](https://www.swiftbysundell.com/posts/different-flavors-of-view-models-in-swift)
+- [Reactive view models, simplified](https://www.youtube.com/watch?v=uTLG_LgjWGA)
 
 ### Repos
 
 - [TheReactiveArchitecture](https://github.com/devxoul/TheReactiveArchitecture) The modern and reactive architecture for RxSwift application
 - [kickstarter vm structure](https://github.com/kickstarter/native-docs/blob/master/vm-structure.md) Rx input and output
 - [Coordinator-MVVM-Rx-Example](https://github.com/uptechteam/Coordinator-MVVM-Rx-Example) Example of MVVM-C architecture implemented with RxSwift
+- [RxCoordinator](https://github.com/quickbirdstudios/RxCoordinator) iOS framework that helps you implement Model-View-ViewModel-Coordinator architecture.
 
 # Clean Architecture
 
@@ -110,6 +121,7 @@ Model View ViewModel
 - [Building a Unidirectional Data Flow App in Swift with Realm](https://realm.io/news/unidirectional-data-flow-in-swift/)
 - [Architecture Thoughts: Migrating Marvel's iOS App to ReSwift ..](https://medium.com/cocoaacademymag/architecture-thoughts-migrating-marvels-ios-app-to-reswift-ef7f20e84e60)
 - [Functional architecture for Swift](https://medium.com/@PallasR/functional-architecture-for-swift-dfa8854239cb)
+- [iOS Architecture: Separating logic from effects](https://jobandtalent.engineering/ios-architecture-separating-logic-from-effects-7629cb763352) :star:
 
 ### Repos
 
@@ -125,13 +137,14 @@ Model View ViewModel
 - [RxFeedback](https://github.com/kzaher/RxFeedback) Architecture for RxSwift
 - [tea-in-swift](https://github.com/chriseidhof/tea-in-swift) The Elm Architecture in Swift
 - [Suas-iOS](https://github.com/zendesk/Suas-iOS) Unidirectional data flow architecture implementation for iOS, macOS, tvOS and watchOS http://suas.readme.io
+- [ReactComponentKit](https://github.com/ReactComponentKit/ReactComponentKit) ReactComponentKit is a library for building UIViewController based on Components.
 
 # VIPER
 View Interactor Presenter Entity Router
 
 ### Posts
 
-- [Introduction to VIPER](http://mutualmobile.github.io/blog/2013/12/04/viper-introduction/)
+- [Introduction to VIPER](https://github.com/strongself/The-Book-of-VIPER/blob/master/english/introduction-to-viper.md)
 - [Architecting iOS Apps with VIPER](http://www.objc.io/issues/13-architecture/viper/)
 - [Brigade’s Experience Using an MVC Alternative](https://medium.com/brigade-engineering/brigades-experience-using-an-mvc-alternative-36ef1601a41f)
 - [First Observations on TDD with VIPER](http://iosunittesting.com/tdd-with-viper/)
@@ -153,10 +166,12 @@ View Interactor Presenter Entity Router
 - [VIPER-S: WRITING YOUR OWN ARCHITECTURE AND UNDERSTAND ITS IMPORTANCE (PART 3)](http://www.thinkandbuild.it/viper-s-writing-your-own-architecture-and-understand-its-importance-part-3/)
 - [Facing the VIPER](https://vimeo.com/album/4786409/video/235312913)
 - [Building a Framework with VIPER](https://academy.realm.io/posts/try-swift-nyc-sonam-dhingra-building-viper-framework/)
+- [Implementing VIPER Architecture Pattern for iOS](https://medium.com/flawless-app-stories/implementing-viper-archticture-pattern-for-ios-d24a6def8ba2)
 
 ### Repos
 
 - [iOS-Viper-Architecture](https://github.com/MindorksOpenSource/iOS-Viper-Architecture) A detailed sample app that implements VIPER architecture
+- [iOS Viper XCode Templates](https://github.com/infinum/iOS-VIPER-Xcode-Templates) Another detailed sample app that implements VIPER architecture with code generation templates
 - [iOSSwiftStarter](https://github.com/RoRoche/iOSSwiftStarter) A sample iOS app written in Swift using the VIPER architecture. 
 
 # VIP
@@ -184,6 +199,9 @@ View Interactor Presenter
 - [Refactoring at Scale – Lessons Learned Rewriting Instagram’s Feed](https://realm.io/news/tryswift-ryan-nystrom-refactoring-at-scale-lessons-learned-rewriting-instagram-feed/)
 - [IGListKit Tutorial: Better UICollectionViews](https://www.raywenderlich.com/147162/iglistkit-tutorial-better-uicollectionviews)
 - [Dealing with Complex Table Views in iOS and Keeping Your Sanity](https://medium.cobeisfresh.com/dealing-with-complex-table-views-in-ios-and-keeping-your-sanity-ff5fee1fbb83)
+ - [iOS: How to build a Table View with multiple cell types](https://medium.com/@stasost/ios-how-to-build-a-table-view-with-multiple-cell-types-2df91a206429)
+ - [Using Dedicated Objects as Delegates & Datasources](https://alisoftware.github.io/architecture/2018/05/20/dedicated-datasources/)
+ - [Reusable data sources in Swift](https://www.swiftbysundell.com/posts/reusable-data-sources-in-swift)
 
 ### Repos
 
@@ -202,17 +220,25 @@ View Interactor Presenter
 - [ScrollingStackViewController](https://github.com/justeat/ScrollingStackViewController) A view controller that uses root views of child view controllers as views in a UIStackView.
 - [ScrollingStackContainer](https://github.com/malcommac/ScrollingStackContainer) Efficient Scrolling UIStackView in Swift
 - [Flow](https://github.com/malcommac/Flow) A new declarative approach to UITableView
-
-# Misc
+- [FlowKit](https://github.com/malcommac/FlowKit) Declarative type-safe manager for UITableView & UICollectionView
+- [Static](https://github.com/venmo/Static) Simple static table views for iOS in Swift.
+- [Bento](https://github.com/Babylonpartners/Bento) Swift library for building component-based interfaces on top of UITableView
+- [ReactiveLists](https://github.com/plangrid/ReactiveLists) React-like API for UITableView & UICollectionView
+- [LiveCollections](https://github.com/scribd/LiveCollections)
+- [AloeStackView](https://github.com/airbnb/AloeStackView) A simple class for laying out a collection of views with a convenient API, while leveraging the power of Auto Layout :star:
+- [Carbon](https://github.com/ra1028/Carbon) A declarative library for building component-based user interfaces in UITableView and UICollectionView
+- [Owl](https://github.com/malcommac/Owl) A declarative type-safe framework for building fast and flexible lists with Tables & Collections
+ 
+# Best Practices
 
 ### General
 
+- [Benchmarking MVC vs MVP vs MVVM in iOS](https://www.simform.com/mvc-mvp-mvvm-ios-app-development/)
 - [iOS Architecture Patterns Demystifying MVC, MVP, MVVM and VIPER](https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52#.tliwdfd60) :rocket:
 - [Clean Cocoa](http://www.fantageek.com/blog/2015/12/03/clean-cocoa/) :star:
 - [iOS Development: You're Doing It Wrong](http://doing-it-wrong.mikeweller.com/2013/06/ios-app-architecture-and-tdd-1.html)
 - [How to separate view controllers from their view logic](http://jpellat.com/how-to-separate-view-controllers-from-his-view-logic/)
 - [8 Patterns to Help You Destroy Massive View Controller](http://khanlou.com/2014/09/8-patterns-to-help-you-destroy-massive-view-controller/)
-- [API Design](http://mattgemmell.com/api-design/)
 - [Intentions](http://chris.eidhof.nl/posts/intentions.html)
 - [Model-View-ViewModel for iOS](http://www.teehanlax.com/blog/model-view-viewmodel-for-ios/)
 - [Singletons, AppDelegates and top-level data.](http://www.cocoawithlove.com/2008/11/singletons-appdelegates-and-top-level.html)
@@ -239,23 +265,57 @@ View Interactor Presenter
 - [The Presentation Model](https://medium.com/@sandofsky/the-presentation-model-6aeaaab607a0)
 - [The New Swipe Right with Swift](http://tech.gotinder.com/the-new-swipe-right-with-swift/)
 - [Zero Knowledge Architectures for Mobile Applications](https://medium.com/@vixentael/zero-knowledge-architectures-for-mobile-applications-b00a231fda75)
+- [Top-down iOS error architecture](https://medium.com/@londeix/top-down-error-architecture-d8715a28d1ad)
+- [App Architectures: Remixed](https://skillsmatter.com/skillscasts/11527-app-architectures-remixed)
+- [iOS Application Architecture](https://www.youtube.com/watch?v=PdkWjdKOqfo)
+- [How to move data sources and delegates out of your view controllers](https://www.hackingwithswift.com/articles/86/how-to-move-data-sources-and-delegates-out-of-your-view-controllers)
+- [App Architecture and Object Composition in Swift](https://medium.com/flawless-app-stories/app-architecture-and-object-composition-in-swift-c9101a9e37e3)
+- [Let's Talk Architecture](https://kean.github.io/post/app-architecture)
+- [The Lost Art of System Design](https://www.youtube.com/watch?v=ujOc3a7Hav0)
+- [Maintaining architecture in iOS apps](https://www.youtube.com/watch?v=kyOtj16k_lQ)
+- [Four Rules of Simpler iOS Software Design](https://medium.com/flawless-app-stories/four-rules-of-simpler-ios-software-design-c371818d08e0)
+- [The Art of Designing Code](https://www.youtube.com/watch?v=_qKlb7MbeKA) :star:
 
-### Coordinator
+### Dependency Injection
 
-- [Coordinators Redux](http://khanlou.com/2015/10/coordinators-redux/)
-- [Coordinators – Soroush Khanlou - CocoaHeads Stockholm](https://www.youtube.com/watch?v=a1g3k3NObkE)
-- [Passing dependencies through Coordinator chain](http://aplus.rs/2017/passing-dependencies-through-coordinator-chain/)
-- [MVC-C · Injecting Coordinator pattern in UIKit](http://aplus.rs/2017/mvc-c-injecting-coordinator-pattern-in-uikit/)
+- [Managing objects using Locks & Keys in Swift](https://www.swiftbysundell.com/posts/managing-objects-using-locks-and-keys-in-swift) :star:
+- [How To Control The World](https://www.pointfree.co/blog/posts/21-how-to-control-the-world)
+- [Structure and Interpretation of Swift Programs](https://www.youtube.com/watch?v=V-YvI83QdMs)
+- [Extracting view controller actions in Swift](https://www.swiftbysundell.com/posts/extracting-view-controller-actions-in-swift)
+- [Behaviors in iOS Apps](https://www.objc.io/issues/13-architecture/behaviors/)
+- [Logic controllers in Swift](https://www.swiftbysundell.com/posts/logic-controllers-in-swift)
+- [Model controllers in Swift](https://www.swiftbysundell.com/posts/model-controllers-in-swift)
+- [Using protocol compositon for dependency injection](http://merowing.info/2017/04/using-protocol-compositon-for-dependency-injection/)
+- [Cleaning up your dependencies with protocols](https://www.donnywals.com/cleaning-up-your-dependencies-with-protocols/)
 
-### FlowController
+### API
 
-- [Coordinator and FlowController](https://github.com/onmyway133/blog/issues/106)
+- [API Design](http://mattgemmell.com/api-design/)
+- [Testable interface design with enums](https://kandelvijaya.com/2018/03/03/testableinterfacedesignwithenums/)
+- [Designing Swift APIs](https://www.swiftbysundell.com/posts/designing-swift-apis)
+
+### Refactoring
+
+- [Similar Prefixes](http://khanlou.com/2018/08/similar-prefixes/)
+- [Structuring Swift code](https://www.swiftbysundell.com/posts/structuring-swift-code)
+
+### Model
+
+- [Structuring model data in Swift](https://www.swiftbysundell.com/posts/structuring-model-data-in-swift)
+- [Utilizing value semantics in Swift](https://www.swiftbysundell.com/posts/utilizing-value-semantics-in-swift)
+
+### View and Model
+
+- [View Descriptors](https://152percent.com/blog/2018/4/16/view-descriptors)
+- [Preventing views from being model aware in Swift](https://www.swiftbysundell.com/posts/preventing-views-from-being-model-aware-in-swift)
+- [UITableViewCell and Model](https://github.com/onmyway133/blog/issues/154)
 
 ### AppDelegate
 
 - [SERVICE-ORIENTED APPDELEGATE](http://sizeof.io/service-oriented-appdelegate/)
 - [Lighter AppDelegate](http://www.fantageek.com/blog/2015/10/31/lighter-appdelegate/)
 - [Service-oriented AppDelegate](https://medium.com/ios-os-x-development/pluggableapplicationdelegate-e50b2c5d97dd#.scovfjixy)
+- [](https://medium.com/flawless-app-stories/clean-appdelegate-1903e27f72c1e)
 
 ### Repos
 
@@ -265,6 +325,10 @@ View Interactor Presenter
 - [eigen](https://github.com/artsy/eigen/blob/master/docs/overview.md) The Art World in Your Pocket or Your Trendy Tech Company's Tote, Artsy's iOS app
 - [ENGINEERING THE ARCHITECTURE BEHIND UBER’S NEW RIDER APP](https://eng.uber.com/new-rider-app/)
 - [RIBs](https://github.com/uber/RIBs) Uber's cross-platform mobile architecture framework.
+- [Alicerce](https://github.com/Mindera/Alicerce) A base for iOS Applications by Mindera
+- [Flint](https://github.com/MontanaFlossCo/Flint) The Flint framework for building apps on Apple platforms using Feature Driven Development
+- [ios-architecture](https://github.com/tailec/ios-architecture) A collection of iOS architectures - MVC, MVVM, MVVM+RxSwift, VIPER, RIBs and many others
+- [SwiftHub](https://github.com/khoren93/SwiftHub) GitHub iOS client in RxSwift and MVVM-C clean architecture
 
 ### Sync
 
@@ -283,8 +347,11 @@ View Interactor Presenter
 - [CTPersistance](https://github.com/casatwy/CTPersistance)
 - [JustPersist](https://github.com/justeat/JustPersist)
 - [Pantry](https://github.com/nickoneill/Pantry)
+- [The Many Offline Options for iOS Apps](https://medium.com/device-blogs/the-many-offline-options-for-ios-apps-2922c9b3bff3)
+- [How to Design Offline-first Approach in a Mobile App](https://www.netguru.com/blog/how-to-design-offline-first-approach-in-mobile-app)
+- [Flannel: An Application-Level Edge Cache to Make Slack Scale](https://slack.engineering/flannel-an-application-level-edge-cache-to-make-slack-scale-b8a6400e2f6b)
 
-### Asynchronous Programming
+### Asynchronous/Reactive Programming
 
 - [Comparative Asynchronous Programming](https://ashfurrow.com/blog/comparative-asynchronous-programming/)
 - [Thinking in RxSwift](http://adamborek.com/thinking-rxswift/)
@@ -292,8 +359,9 @@ View Interactor Presenter
 - [RxSwift](https://github.com/ReactiveX/RxSwift) Reactive Programming in Swift
 - [Operations](https://github.com/danthorpe/Operations) A Swift framework inspired by WWDC 2015 Advanced NSOperations session.
 - [Modern RxSwift Architectures](https://academy.realm.io/posts/try-swift-nyc-2017-krunoslav-zaher-modern-rxswift-architectures/)
+- [Architecturing an app with functional reactive programming](https://www.welcometothejungle.co/fr/articles/functional-reactive-programming-architecture)
 
-### Navigation
+### Navigation/Coordinator/FlowController
 
 - [Coordinators Redux](http://khanlou.com/2015/10/coordinators-redux/)
 - [Deep links with no brainer](http://ilya.puchka.me/deeplinks-no-brainer/)
@@ -307,6 +375,19 @@ View Interactor Presenter
 - [URL Routing with Compass](https://github.com/onmyway133/blog/issues/110) :star:
 - [Weavy](https://github.com/twittemb/Weavy) Navigation framework for iOS applications based on a weaving pattern
 - [RxFlow](https://github.com/RxSwiftCommunity/RxFlow) RxFlow is a navigation framework for iOS applications based on a Reactive Flow Coordinator pattern
+- [A Flexible Routing Approach in an iOS App](https://medium.com/rosberryapps/the-flexible-routing-approach-in-an-ios-app-eb4b05aa7f52)
+- [Navigation in Swift](https://www.swiftbysundell.com/posts/navigation-in-swift)
+- [Coordinators Essential tutorial. Part I](https://medium.com/blacklane-engineering/coordinators-essential-tutorial-part-i-376c836e9ba7)
+- [Coordinators Essential tutorial. Part II](https://medium.com/blacklane-engineering/coordinators-essential-tutorial-part-ii-b5ab3eb4a74)
+- [Coordinators Redux](http://khanlou.com/2015/10/coordinators-redux/)
+- [Coordinators – Soroush Khanlou - CocoaHeads Stockholm](https://www.youtube.com/watch?v=a1g3k3NObkE)
+- [Passing dependencies through Coordinator chain](http://aplus.rs/2017/passing-dependencies-through-coordinator-chain/)
+- [MVC-C · Injecting Coordinator pattern in UIKit](http://aplus.rs/2017/mvc-c-injecting-coordinator-pattern-in-uikit/)
+- [XCoordinator](https://github.com/quickbirdstudios/XCoordinator) Powerful navigation library for iOS based on the coordinator pattern
+- [Controlling Hierachies](https://sandofsky.com/blog/controller-hierarchies.html)
+- [Coordinator and FlowController](https://github.com/onmyway133/blog/issues/106)
+- [Advanced coordinators in iOS](https://www.hackingwithswift.com/articles/175/advanced-coordinator-pattern-tutorial-ios)
+- [iOS Coordinators: A Storyboard Approach](https://thoughtbot.com/blog/ios-coordinators-a-storyboard-approach)
 
 ### Analytics
 
@@ -315,6 +396,62 @@ View Interactor Presenter
 - [Misusing enums](https://davedelong.com/blog/2017/12/07/misusing-enums/)
 - [Logging in Swift](http://merowing.info/2016/07/logging-in-swift/)
 - [Swift Analytics](http://chris.eidhof.nl/post/swift-analytics/)
+
+### SDK
+
+- [line-sdk-ios-swift](https://github.com/line/line-sdk-ios-swift) Provides a modern way of implementing LINE APIs
+- [BackchannelSDK-iOS](https://github.com/backchannel/BackchannelSDK-iOS) The official iOS SDK for Backchannel
+- [SpotifyLogin](https://github.com/spotify/SpotifyLogin) Swift framework for authenticating with the Spotify API
+- [stripe-ios](https://github.com/stripe/stripe-ios) Stripe iOS SDK
+
+### Functional
+
+- [Proof in Functions](https://www.fewbutripe.com/swift/math/2015/01/06/proof-in-functions.html) :rocket:
+- [Instance Methods are “Curried” Functions in Swift](https://oleb.net/blog/2014/07/swift-instance-methods-curried-functions/)
+
+### Types
+
+- [Making illegal states unrepresentable](https://oleb.net/blog/2018/03/making-illegal-states-unrepresentable/)
+- [Functional Snippet #13: Phantom Types](https://www.objc.io/blog/2014/12/29/functional-snippet-13-phantom-types/)
+- [Never](https://nshipster.com/never/)
+- [Pure functions in Swift](https://www.swiftbysundell.com/posts/pure-functions-in-swift)
+- [Phantom types in Swift](https://www.swiftbysundell.com/posts/phantom-types-in-swift)
+
+### Protocols
+
+- [Mixins over Inheritance](https://alisoftware.github.io/swift/protocol/2015/11/08/mixins-over-inheritance/)
+- [Mixins and traits in Swift 2.0](http://machinethink.net/blog/mixins-and-traits-in-swift-2.0/)
+- [Protocol Oriented Programming is Not a Silver Bullet](http://chris.eidhof.nl/post/protocol-oriented-programming/)
+- [Value-Oriented Programming](https://matt.diephouse.com/2018/08/value-oriented-programming/)
+- [Beyond Crusty: Real-World Protocols](https://www.dotconferences.com/2016/01/rob-napier-beyond-crusty-real-world-protocols)
+- [A Little Respect for AnySequence](http://robnapier.net/erasure)
+- [Protocols Sidebar I: Protocols Are Nonconformists](http://robnapier.net/nonconformist)
+- [Protocols II: A Mockery of Protocols](http://robnapier.net/a-mockery-of-protocols)
+- [A case of premature abstractions](https://swiftindepth.com/2019-03-24/a-case-of-premature-abstractions)
+- [Protocol-Oriented Library Design](https://www.pointfree.co/episodes/ep37-protocol-oriented-library-design-part-1)
+- [Protocol Witnesses - Brandon Williams - App Builders 2019](https://www.youtube.com/watch?v=3BVkbWXcFS4)
+
+### Code
+
+- [Splash](https://github.com/JohnSundell/Splash) A fast, lightweight and flexible Swift syntax highlighter for blogs, tools and fun!
+
+### Separation of Concerns
+
+- [The trouble with manager objects](https://sandofsky.com/blog/manager-classes.html)
+
+### Testing
+
+- [Defining testing data in Swift](https://www.swiftbysundell.com/posts/defining-testing-data-in-swift)
+
+### Generic
+
+- [Generalizing Swift code](https://www.swiftbysundell.com/posts/generalizing-swift-code)
+
+### Cross platform
+
+- [LibSlack: the C++ library at the foundation of our client application architecture](https://slack.engineering/libslack-the-c-library-at-the-foundation-of-our-client-application-architecture-97470b5ef9b3)
+- [The (not so) hidden cost of sharing code between iOS and Android](https://blogs.dropbox.com/tech/2019/08/the-not-so-hidden-cost-of-sharing-code-between-ios-and-android/)
+- [Client Consistency at Slack: Beyond Libslack](https://slack.engineering/client-consistency-at-slack-beyond-libslack-c9cfbe778fb7)
 
 Licence
 --
